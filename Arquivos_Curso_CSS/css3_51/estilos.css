@@ -1,0 +1,31 @@
+html{
+	font-size:20px;
+}
+body{
+	font-size:2em; /*40px*/
+}
+
+div{
+	display:inline-block;
+	width:300px;
+}
+
+#d1{
+	border:1px solid #f00;
+	height:2em; /*80px*/
+}
+#d2{
+	border:1px solid #00f;
+	height:80px;
+}
+
+
+
+p{
+	font-size:2em; /*Tamanho da fonte do elemento pai X 2*/
+}
+
+#p3{
+	font-size:20px;
+	color:#f00;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Completo de HTML - CFB Cursos - Aula 37</title>
+		<style>
+			.quebra{display:block;}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+			<!-- tel (pattern e placeholder)
+				 number (step,max,min)
+				 search
+			-->
+			
+			<label class="quebra">Senha:</label>
+			<input type="password" name="f_senha" pattern="[a-zA-Z0-9]{5}" required>
+
+			<label class="quebra">Telefone:</label>
+			<input type="tel" name="f_tel" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx">
+
+			<label class="quebra espaco_t">Escolha um número:</label>
+			<input type="number" name="f_numero" step="2" min="0" max="10">
+
+			<label class="quebra espaco_t">Pesquisa:</label>
+			<input type="search" name="f_pesquisa">
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>

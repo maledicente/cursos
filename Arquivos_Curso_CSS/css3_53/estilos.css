@@ -1,0 +1,26 @@
+body{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	font-size:20px;
+	font-family:Arial;
+}
+
+div,p{
+	display:inline-block;
+}
+
+p{
+	font-size:10em;
+}
+
+#d1{
+	border:1px solid #f00;
+	width:10ex; /**/
+	height:10ex;
+}
+#d2{
+	border:1px solid #00f;
+	width:10em;
+	height:10em;
+}

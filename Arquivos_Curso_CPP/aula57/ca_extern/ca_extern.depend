@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1512004145 source:d:\canais\videoaulas\c++\57\cpp\ca_extern\main.cpp
+	<iostream>
+	"variaveis.h"
+
+1512003904 source:d:\canais\videoaulas\c++\57\cpp\ca_extern\auxiliar.cpp
+	<iostream>
+
+1512004098 d:\canais\videoaulas\c++\57\cpp\ca_extern\variaveis.h
+

@@ -1,0 +1,37 @@
+div{
+	width:350px;
+	height:150px;
+	border:1px solid #000;
+	white-space:normal;
+	overflow:auto;
+	word-break:normal;
+}
+
+p{
+	color:#000;
+	text-decoration:none;
+	text-transform:capitalize;
+	text-align:justify;
+	text-indent:100px;
+	letter-spacing:0px;
+	line-height:2;
+	direction:ltr;
+	word-spacing:5px;
+	text-align-last:left;
+}
+
+.p1{
+}
+
+.p2{	
+}
+
+.p3{
+}
+
+.p4{
+}
+
+a{
+	text-decoration:none;
+}

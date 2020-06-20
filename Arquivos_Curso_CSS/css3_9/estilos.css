@@ -1,0 +1,8 @@
+p{
+	width:300px;
+
+	border-top:#000 solid 20px;
+	border-right:#00F double 20px;
+	border-bottom:#F00 dotted 20px;
+	border-left:#0F0 groove 20px;
+}

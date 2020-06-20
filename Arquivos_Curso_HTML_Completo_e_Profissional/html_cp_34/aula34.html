@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Completo de HTML - CFB Cursos - Aula 33</title>
+		<style>
+			.quebra{display:block;}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+
+			<label class="quebra">Hora:</label>
+			<input type="time" name="f_hora" min="09:00" max="17:00">
+
+			<label class="quebra espaco_t">Data:</label>
+			<input type="date" name="f_date">
+
+			<label class="quebra espaco_t">Data e Hora:</label>
+			<input type="datetime-local" name="f_data_hora">
+
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>

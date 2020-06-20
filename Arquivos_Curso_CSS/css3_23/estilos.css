@@ -1,0 +1,23 @@
+ol{
+	list-style:none;
+	padding:0px;
+}
+
+li{
+	width:150px;
+	height:40px;
+	background-color:#800;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	border-right:1px solid #FFF;
+}
+
+li:hover{
+	background-color:#f00;
+}
+
+a{
+	text-decoration:none;
+	color:#FFF;
+}

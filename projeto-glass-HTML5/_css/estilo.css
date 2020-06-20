@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap'); /*Fonte importada do google fonts*/
+@font-face {
+    font-family: 'FonteLogo'; /*Nome referência para fonte que está na pasta _fonts*/
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#ffffff ;
+    color: rgba(0,0,0,0.9);
+}
+
+div#interface {   /*Aqui é a divisão da interface*/
+    width: 1200px;
+    background: #ffffff;
+    margin: -20px auto 0px auto; /*A margem fica centralizada usando auto na esquerda e direita*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px; /*Distancia das letras em relação à margem. Desta maneira usa 10px em todas as bordas*/
+    position: relative; /*A posição deve ser relative para que o menu possa ser absolute, não afetando na troca de resolução da tela*/
+}
+p {
+    text-align: justify;
+    text-indent: 50px; /*Tamanho da margem do parágrafo*/
+}
+
+a {
+    color: #606060;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone { /*Posiciona a imagem do óculos pequeno no canto de cima da página*/
+    position: relative;
+    left: 1030px;
+    top: -40px;
+}
+
+header#cabecalho { /*Aqui é adicionada a linha sólida para dividir o cabeçalho*/
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px; /*Aqui entra o logo Glass em cima da linha*/
+    /*No repeat é utilizado para aparecer apenas uma vez o logo no cabeçalho*/
+}
+
+header#cabecalho h1 { /*Aqui é a formatação do título Google Glass*/
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px; /* Com 0px de padding as palavras não tem margem*/
+    margin-bottom: 0px; /*Distancia da margem de baixo das palavras Google Glass no h1*/
+
+}
+
+header#cabecalho h2 { /*Aqui é a formatação do subtítulo A revolução está chegando*/
+    font-family: 'Titillium Web' ,sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px; /*Distância da margem de cima do subtítulo no h2*/
+    /*Portanto o título e o subtítulo não terão espaço entre eles*/
+}
+
+/* Formatação de imagens com legendas*/
+
+figure.foto-legenda{
+    position: relative; /*Dessa maneira a legenda fica dentro do container ou seja a imagem*/
+    border: 8px solid white; /*Aqui é a largura da borda*/
+    box-shadow: 1px 1px 4px black; /*Aqui cria uma sombra em torno da imagem*/
+}
+figure.foto-legenda img { /*Aqui a imagem aumenta de acordo com a abertura da página*/
+    width: 100%; /*Largura*/
+    height: 100%; /*Altura*/
+    /*Ou seja ela se adapta ao corte das bordas do navegador */
+}
+figure.foto-legenda figcaption {
+    opacity: 0; /*Com 0 de opacidade a legenda some. Para criar depois o efeito de aparecer quando passar o mouse*/
+    position: absolute; /*posiciona dentro do container (ou borda branca)*/
+    top: 0px; /*legenda no topo*/
+    background-color: rgba(0,0,0,0.4); /*transparência da do box da legenda em cima da imagem*/
+    color: white; /*Cor das letras da legenda*/
+    width: 100%; /*Aqui a transparência do box ocupa 100% do horizontal da imagem*/
+    height:100%; /*Aqui a transparência do box ocupa 100% do vertical da imagem*/
+    padding: 10px; /*Desce 10px da borda criando um espaçamento em torno da legenda*/
+    box-sizing: border-box; /*cria um box dentro da borda*/
+    transition: opacity 1s; /*para ter uma transição lenta*/
+}
+figure.foto-legenda:hover figcaption { /*dispara toda a formatação do figcaption quando o mouse passar por cima*/
+    opacity: 1; /*Com essa opacidade (1),fica 100% visivel toda formatação*/
+}
+
+/* Formatação do Menu */
+
+nav#menu { /*O # indica o identificador menu do index.html*/
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none; /*Apaga os marcadores do menu*/
+    text-transform: uppercase; /*Letras maiusculas*/
+    position: absolute; /*Desta maneira o menu fica livre na margem do site. Se fosse relative seria dentro do container */
+    /*Com absolute há alguns problemas quando a resolução da tela muda. O menu se desloca*/
+    top: 0px;
+    right: 150px;
+}
+
+nav#menu li {
+    display: inline-block; /*Os itens de li se posicionam em linha através de caixas*/
+    background-color: #dddddd; /*Cor da caixa*/
+    padding: 10px; /*Tamanho da caixa*/
+    margin: 2px; /*Margem(espaço) entre as caixas*/
+    transition: background-color 1s;
+}
+
+nav#menu li:hover { /*Escurece os blocos quando passa o mouse por cima*/
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none; /*Apaga o texto Menu principal do index.html*/
+}
+
+nav#menu a { /*Muda a cor do texto dos links a*/
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none; /*Retira o sublinhado dos links*/
+}
+
+nav#menu a:hover { /*Muda a cor das letras dos links quando passar o mouse*/
+    color: #ffffff;
+}
+
+/*Formatação dos espaços do site*/
+section#corpo {
+    dysplay: block; /*Dará um formato de bloco ao corpo*/
+    width: 700px; /*Tamanho do corpo*/
+    float: left; /*Posiciona à esquerda*/
+    border-right: 1px solid #606060; /*Cria uma borda(linha) à direita*/
+    padding-right: 15px; /*Aumentou o padding à direita para melhorar a distância das letras até a borda*/
+}
+
+/*Formatação por artigo*/
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding:5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 8pt;
+    color: #606060;
+}
+
+.direita { /*Classe do h3 para mandar apenas este texto para direita*/
+    text-align: right;
+}
+
+/*Formatação da tabela*/
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px; /*Tira os espaços existentes das células da tabela*/
+    margin-left: auto; /*Centraliza a tabela com left e right em auto*/
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060; /*Cria bordas em cada uma das células*/
+    padding: 10px;
+    text-align: right; /*Posiciona o texto*/
+    vertical-align: middle; /*Posiciona o vértice do texto*/
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    text-align: left;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+   display: block; /*O span vai ser um novo bloco dentro do caption*/
+   float: right; /*E vai flutuar a direita do caption*/
+    font-size: 8pt;
+   color: #000000;
+   margin-top: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 450px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+footer#rodape {
+    clear: both; /*Limpa as divisões e faz com que o rodapé saia dos blocos do corpo e lateral*/
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+

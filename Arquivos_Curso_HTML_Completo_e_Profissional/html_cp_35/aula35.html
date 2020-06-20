@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Completo de HTML - CFB Cursos - Aula 35</title>
+		<style>
+			.quebra{display:block;}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+
+			<label class="quebra">Mes:</label>
+			<input type="month" name="f_mes">
+
+			<label class="quebra espaco_t">Semana:</label>
+			<input type="week" name="f_semana">
+
+			<input type="hidden" name="canal" value="cfbcursos">
+			<input type="hidden" name="curso" value="html5">
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>

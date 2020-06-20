@@ -1,0 +1,4 @@
+Texto para teste com arquivos.
+
+Canal Fessor Bruno.
+Curso de PHP.

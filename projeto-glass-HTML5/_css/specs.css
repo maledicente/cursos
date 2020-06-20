@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto; /*Margin auto fará ocupar todos os espaços da página*/
+}
+
+iframe#frame-specs {
+    width: 400px;
+    height: 280px;
+    border: none;
+}
+
+iframe#frame-specs::-webkit-scrollbar { /*Este webkit é o kit de barras de rolagem que entra automático no iframe*/
+    display: none;
+}

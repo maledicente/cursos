@@ -1,0 +1,10 @@
+.cfb::before{
+	content:url(marcador.png);
+}
+.cfb::after{
+	content:url(marcador.png);
+}
+	
+p{
+	font-size:40px;
+}

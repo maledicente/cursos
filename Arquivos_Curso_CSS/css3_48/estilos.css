@@ -1,0 +1,25 @@
+img{
+	width:500px;
+}
+
+body{
+	background:#ff0;
+}
+
+@media screen and (max-width:400px) and (orientation:portrait){
+	body{
+		background:#f00;
+	}
+	img{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:400px) and (orientation:landscape){
+	body{
+		background:#00f;
+	}
+	img{
+		width:100%;
+	}
+}

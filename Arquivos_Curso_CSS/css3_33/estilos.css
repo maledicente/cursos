@@ -1,0 +1,37 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+div{
+	border:1px solid #000;
+	background:#ddd;
+}
+
+#d0{
+	width:700px;
+	height:500px;
+	background:#eef;
+	position:absolute;
+	top:150px;
+	left:300px;
+}
+
+#d1,#d2{
+	width:300px;
+	height:150px;	
+}
+
+#d1{
+	position:absolute;
+	top:50px;
+	left:50px;
+	z-index:2;
+}
+
+#d2{
+	position:absolute;
+	top:70px;
+	left:70px;
+	z-index:1;
+}

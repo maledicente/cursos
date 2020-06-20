@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Completo de HTML - CFB Cursos - Aula 33</title>
+		<style>
+			.quebra{display:block;}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+			<label>Username:</label>
+			<input class="espaco quebra" type="text" name="f_username" maxlength="20" size="25">
+			<label>Senha:</label>
+			<input class="espaco quebra" type="password" name="f_senha" maxlength="10" size="15">
+			<label class="quebra">Esportes favoritos:</label>
+			<input type="checkbox" name="f_fut">Futebol
+			<input type="checkbox" name="f_bas">Basquete
+			<input type="checkbox" name="f_nat">Natação
+			<label class="quebra espaco_t">Possui carro?</label>
+			<input type="radio" name="f_carro" value="s" checked>Sim
+			<input type="radio" name="f_carro" value="n">Não
+
+			<input class="espaco_t quebra" type="submit" name="f_entrar" value="Entrar">
+		</form>
+
+	</body>
+</html>

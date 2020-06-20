@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>CFB Cursos - Javascript</title>
+		<meta charset="utf-8"/>
+		<style></style>
+		<script>
+
+			if(typeof(Storage)!="undefine"){
+				if(localStorage.visitas){
+					localStorage.visitas=Number(localStorage.visitas)+1;
+				}else{
+					//localStorage.setItem("visitas",1);
+					localStorage.visitas=1;
+				}
+				document.write("Visitas: "+localStorage.visitas);
+			}else{
+				document.write("Sem suporte a Web Storage!");
+			}
+
+		</script>
+	</head>
+	<body>
+
+
+	</body>
+</html> 

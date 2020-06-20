@@ -1,0 +1,21 @@
+p{
+	font-size:30px;
+}
+
+p::first-letter{
+	font-size:40px;
+	color:#f00;
+}
+
+p::first-line{
+	background:#ff0;
+}
+
+::selection{
+	color:#0f0;
+	background:#f00;
+}
+::-moz-selection{
+	color:#0f0;
+	background:#f00;
+}

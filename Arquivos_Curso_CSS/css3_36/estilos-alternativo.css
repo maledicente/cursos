@@ -1,0 +1,15 @@
+.cfb::before{
+	background-image:url(marcador.png);
+	background-size:100px 50px;
+    display: inline-block;
+    width:100px; 
+    height:50px;
+    content:"";
+}
+.cfb::after{
+	content:url(marcador.png);
+}
+	
+p{
+	font-size:40px;
+}

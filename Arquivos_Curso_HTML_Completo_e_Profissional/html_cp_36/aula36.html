@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Curso Completo de HTML - CFB Cursos - Aula 36</title>
+		<style>
+			.quebra{display:block;}
+			.espaco{
+				margin-bottom: 15px;
+			}
+			.espaco_t{
+				margin-top: 15px;
+			}
+			form{
+				border:1px solid #000;
+				padding:10px;
+				border-radius:15px;
+				background-color:#eee;
+			}
+		</style>
+	</head>
+	<body>
+
+		<form name="f_cadastro" action="#" method="get">
+			<!-- color, email, image -->
+			
+			<label class="quebra">Selecione uma cor:</label>
+			<input type="color" name="f_cor">
+
+			<label class="quebra espaco_t">Digite seu email:</label>
+			<input type="email" name="f_email">
+
+			<input class="quebra espaco_t" src="logo.png" type="image" name="f_enviar2">
+
+			<input class="espaco_t quebra" type="submit" name="f_enviar" value="Enviar">
+		</form>
+
+	</body>
+</html>

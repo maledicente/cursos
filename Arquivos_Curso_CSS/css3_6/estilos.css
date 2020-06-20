@@ -1,0 +1,6 @@
+body{
+	background-image:url(cfb.jpg), url(marcador.png);
+	background-repeat:no-repeat, repeat;
+	background-size:400px, 30px;
+	background-attachment:scroll, fixed;
+}

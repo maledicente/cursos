@@ -1,0 +1,44 @@
+nav{
+	width:200px;
+	float:left;
+}
+nav ul{
+	margin:0;
+	padding:0;
+}
+nav li{
+	background:#D55;
+	color:#FFF;
+	border:#ddd solid 1px;
+	border-radius:4px;
+	list-style-type:none;
+	margin:4px;
+	padding:2px;
+}
+article{
+	margin-left:210px;
+}              
+   
+@media screen and (min-width:0px) and (max-width:500px){
+	nav{
+		width:100%;
+	}
+	article{
+		margin-left:4px;
+	}
+	article p{
+		text-align:justify;
+	}
+	nav li{
+		font-size:25px;
+	}
+}
+
+@media screen and (min-width:501px) and (max-width:800px){
+	nav li{
+		font-size:25px;
+	}
+	article div{
+		float:left;
+	}
+}

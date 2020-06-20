@@ -1,0 +1,30 @@
+table, td, th{
+	border:1px solid #000;
+}
+
+table{
+	width:500px;
+	table-layout:fixed;
+	border-collapse:collapse;
+	/*empty-cells:hide;*/
+}
+
+td, th{
+	height:30px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+th{
+	background-color:#8a8;
+	color:#fff;
+	font-size:20px;
+}
+
+tr:nth-child(even){
+	background:#ddd;
+}
+
+p:nth-child(even){
+	background:#fdd;
+}

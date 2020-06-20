@@ -1,0 +1,14 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+div{
+	float:left;
+	width:200px;
+	height:200px;
+	background-color:#ddd;
+	outline:#000 solid 10px;
+	/*outline-offset:40px;*/
+	/*border:#f00 solid 1px;*/
+}

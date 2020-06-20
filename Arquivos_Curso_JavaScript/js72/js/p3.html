@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>CFB Cursos - Javascript</title>
+		<meta charset="utf-8"/>
+		<style>
+			body{
+				background-color:#008;
+				color:#fff;
+			}
+
+		</style>
+		<script>
+
+			function inicia(){
+				document.getElementById("painel").innerHTML=sessionStorage.nome;
+			}
+			window.addEventListener("load",inicia);
+			
+		</script>
+	</head>
+	<body>
+
+		<h2>Página 3</h2>
+		<div id="painel"></div>
+
+	</body>
+</html> 
