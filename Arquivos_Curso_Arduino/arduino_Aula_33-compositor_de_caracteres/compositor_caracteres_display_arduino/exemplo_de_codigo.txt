@@ -1,0 +1,81 @@
+// incluir livraria para o LCD:
+#include <LiquidCrystal.h>
+ 
+LiquidCrystal lcd(25, 11, 5, 22, 3, 23);
+ 
+// copiar para aqui o codigo fornecido pela aplicação de criar caracteres
+// caracter bateria vazia
+byte batlow[8] = {
+B01110,
+B11011,
+B10001,
+B10001,
+B10001,
+B10001,
+B10001,
+B11111
+};
+// caracter bateria meio
+byte batmed[8] = {
+B01110,
+B11011,
+B10001,
+B10001,
+B11111,
+B11111,
+B11111,
+B11111
+};
+// caracter bateria cheia
+byte batfull[8] = {
+B01110,
+B11111,
+B11111,
+B11111,
+B11111,
+B11111,
+B11111,
+B11111
+};
+// caracter bateria coracao
+byte coracao[8] = {
+B00000,
+B01010,
+B11111,
+B11111,
+B11111,
+B01110,
+B00100,
+B00000
+};
+ 
+void setup() {
+// vai criar novo caracter bateria vazia
+lcd.createChar(0, batlow);
+// vai criar novo caracter bateria media
+lcd.createChar(1, batmed);
+// vai criar novo caracter bateria cheia
+lcd.createChar(2, batfull);
+// vai criar novo caracter bateria cheia
+lcd.createChar(3, coracao);
+ 
+lcd.begin(16, 2); //inicializa o LCD 16x2
+ 
+lcd.setCursor(0, 2); //aponta para coluna 0, linha 2
+lcd.print("I ");
+lcd.write(3); //escreve o coracao
+lcd.print(" PPLWARE!");
+ 
+lcd.setCursor(2, 0); //aponta para coluna 2, linha 0
+lcd.print("...a carregar");
+}
+ 
+void loop() {
+//desenha no LCD a simulação bateria a carregar
+for(int i=0; i<3; i++){
+    lcd.setCursor(0, 0); //aponta para coluna 0, linha 0
+    lcd.write(i); //escreve lcd.write(1); lcd.write(2); lcd.write(3);
+    delay(800);
+}
+ 
+}

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Compositor de caracteres para display Arduino</title>
+		<meta charset="utf-8"/>
+
+		<style>
+
+			#painel{
+				display:flex;
+				border:2px solid #555;
+				background-color: #ddd;
+				border-radius:10px;
+				padding: 10px;
+				justify-content:space-around;
+				width:370px;
+				flex-wrap:wrap;
+			}
+			#display{
+				padding:5px;
+				background-color:#7d5;
+				display:flex;
+				justify-content:space-around;
+				align-content:space-around;
+				flex-wrap:wrap;
+				width:120px;
+				border:2px solid #060;
+				border-radius:10px;
+			}
+			#resultado{
+				padding:10px;
+				border:2px solid #555;
+				border-radius:10px;
+				width:200px;
+				background-color: #fff;
+			}
+			#botoes{
+				padding-top: 10px;
+			}
+			#nome{
+				padding-bottom: 10px;
+			}
+
+			button{
+				border:2px solid #000;
+				border-radius: 3px;
+				width:85px;
+				cursor: pointer;
+				background-color: #bbb;
+			}
+			button:hover{
+				background-color: #bfb;
+			}
+
+			.pixel{
+				width:20px;
+				height:20px;
+				border:1px solid #060;
+				cursor:pointer;
+				background-color:#6b5;
+				margin:1px;
+			}
+
+		</style>
+
+		<script>
+
+			var matriz=new Array();
+			var linha1=[0,0,0,0,0],
+				linha2=[0,0,0,0,0],
+				linha3=[0,0,0,0,0],
+				linha4=[0,0,0,0,0],
+				linha5=[0,0,0,0,0],
+				linha6=[0,0,0,0,0],
+				linha7=[0,0,0,0,0],
+				linha8=[0,0,0,0,0];
+
+			matriz.push(linha1);
+			matriz.push(linha2);
+			matriz.push(linha3);
+			matriz.push(linha4);
+			matriz.push(linha5);
+			matriz.push(linha6);
+			matriz.push(linha7);
+			matriz.push(linha8);
+
+			var painel=document.getElementById("painel");
+			var display=document.getElementById("display");
+			var resultado=document.getElementById("resultado");
+
+			function ativarDesativar(){
+				var obj=event.target;
+				var ativo=obj.dataset.ativo;
+				if(ativo==1){
+					//Desativar
+					obj.style.backgroundColor="#6b5";
+					obj.dataset.ativo=0;
+					matriz[obj.dataset.linha][obj.dataset.coluna]=0;
+				}else{
+					//ativar
+					obj.style.backgroundColor="#333";
+					obj.dataset.ativo=1;
+					matriz[obj.dataset.linha][obj.dataset.coluna]=1;
+				}
+				var resultado="byte " + document.getElementById("txt_nome").value + "[8]={<br>B"+matriz[0][0]+matriz[0][1]+matriz[0][2]+matriz[0][3]+matriz[0][4]+",<br>B"
+																+matriz[1][0]+matriz[1][1]+matriz[1][2]+matriz[1][3]+matriz[1][4]+",<br>B"
+																+matriz[2][0]+matriz[2][1]+matriz[2][2]+matriz[2][3]+matriz[2][4]+",<br>B"
+																+matriz[3][0]+matriz[3][1]+matriz[3][2]+matriz[3][3]+matriz[3][4]+",<br>B"
+																+matriz[4][0]+matriz[4][1]+matriz[4][2]+matriz[4][3]+matriz[4][4]+",<br>B"
+																+matriz[5][0]+matriz[5][1]+matriz[5][2]+matriz[5][3]+matriz[5][4]+",<br>B"
+																+matriz[6][0]+matriz[6][1]+matriz[6][2]+matriz[6][3]+matriz[6][4]+",<br>B"
+																+matriz[7][0]+matriz[7][1]+matriz[7][2]+matriz[7][3]+matriz[7][4]+"<br>};";
+				imprimeResultado(resultado);
+			}
+
+			function imprimeResultado(res){
+				document.getElementById("resultado").innerHTML=res;
+			}
+
+			function limpar(){
+				var ponto=1;
+				for(var l=0;l<8;l++){
+					for(var c=0;c<5;c++){
+						matriz[l][c]=0;
+						document.getElementById("p"+ponto).style.backgroundColor="#6b5";
+						document.getElementById("p"+ponto).dataset.ativo=0;
+						ponto++;
+					}
+				}
+				document.getElementById("resultado").innerHTML="";
+			}
+			function todos(){
+				var ponto=1;
+				for(var l=0;l<8;l++){
+					for(var c=0;c<5;c++){
+						matriz[l][c]=1;
+						document.getElementById("p"+ponto).style.backgroundColor="#333";
+						document.getElementById("p"+ponto).dataset.ativo=1;
+						ponto++;
+					}
+				}
+				var resultado="byte " + document.getElementById("txt_nome").value + "[8]={<br>B"+matriz[0][0]+matriz[0][1]+matriz[0][2]+matriz[0][3]+matriz[0][4]+",<br>B"
+																+matriz[1][0]+matriz[1][1]+matriz[1][2]+matriz[1][3]+matriz[1][4]+",<br>B"
+																+matriz[2][0]+matriz[2][1]+matriz[2][2]+matriz[2][3]+matriz[2][4]+",<br>B"
+																+matriz[3][0]+matriz[3][1]+matriz[3][2]+matriz[3][3]+matriz[3][4]+",<br>B"
+																+matriz[4][0]+matriz[4][1]+matriz[4][2]+matriz[4][3]+matriz[4][4]+",<br>B"
+																+matriz[5][0]+matriz[5][1]+matriz[5][2]+matriz[5][3]+matriz[5][4]+",<br>B"
+																+matriz[6][0]+matriz[6][1]+matriz[6][2]+matriz[6][3]+matriz[6][4]+",<br>B"
+																+matriz[7][0]+matriz[7][1]+matriz[7][2]+matriz[7][3]+matriz[7][4]+"<br>};";
+				imprimeResultado(resultado);
+			}
+
+			function sobre(){
+				var txt="Sistema para composição de caractere para Display Arduino\n";
+				txt+="Autor: Bruno P. Campos\n";
+				txt+="Canal: www.youtube.com/cfbcursos\n";
+				txt+="Contatos: bruno@cfbcursos.com.br / perguntas@cfbcursos.com.br";
+				alert(txt);
+			}
+
+			function copiar(){
+				var texto=document.createElement("input");
+				var txt=document.getElementById("resultado").innerHTML;
+				txt=txt.replace(/\<br>/g,"");
+				texto.value=txt;
+				texto.setAttribute("readonly", "");
+				texto.style.position="absolute";
+				texto.style.left="-9999px";
+				document.body.appendChild(texto);
+				texto.select();
+  				document.execCommand("copy");
+  				document.body.removeChild(texto);
+			}
+
+			function inicia(){
+				for(var i=1;i<41;i++){
+					document.getElementById("p"+i).addEventListener("click",ativarDesativar);
+				}
+				document.getElementById("btCopiar").addEventListener("click",copiar);
+				document.getElementById("btLimpar").addEventListener("click",limpar);
+				document.getElementById("btTodos").addEventListener("click",todos);
+				document.getElementById("btSobre").addEventListener("click",sobre);
+			}
+
+			window.addEventListener("load",inicia);			
+
+		</script>
+
+	</head>
+	<body>
+
+		<div id="painel">
+			<div id="nome">
+				<label>Nome do novo caractere: </label><input type="text" name="txt_nome" id="txt_nome" value="nomeNovoCaractere" maxlength="17">
+			</div>
+			<div id="display">
+				<div id="p1" class="pixel" data-ativo="0" data-linha="0" data-coluna="0"></div>
+				<div id="p2" class="pixel" data-ativo="0" data-linha="0" data-coluna="1"></div>
+				<div id="p3" class="pixel" data-ativo="0" data-linha="0" data-coluna="2"></div>
+				<div id="p4" class="pixel" data-ativo="0" data-linha="0" data-coluna="3"></div>
+				<div id="p5" class="pixel" data-ativo="0" data-linha="0" data-coluna="4"></div>
+
+				<div id="p6" class="pixel" data-ativo="0" data-linha="1" data-coluna="0"></div>
+				<div id="p7" class="pixel" data-ativo="0" data-linha="1" data-coluna="1"></div>
+				<div id="p8" class="pixel" data-ativo="0" data-linha="1" data-coluna="2"></div>
+				<div id="p9" class="pixel" data-ativo="0" data-linha="1" data-coluna="3"></div>
+				<div id="p10" class="pixel" data-ativo="0" data-linha="1" data-coluna="4"></div>
+
+				<div id="p11" class="pixel" data-ativo="0" data-linha="2" data-coluna="0"></div>
+				<div id="p12" class="pixel" data-ativo="0" data-linha="2" data-coluna="1"></div>
+				<div id="p13" class="pixel" data-ativo="0" data-linha="2" data-coluna="2"></div>
+				<div id="p14" class="pixel" data-ativo="0" data-linha="2" data-coluna="3"></div>
+				<div id="p15" class="pixel" data-ativo="0" data-linha="2" data-coluna="4"></div>
+
+				<div id="p16" class="pixel" data-ativo="0" data-linha="3" data-coluna="0"></div>
+				<div id="p17" class="pixel" data-ativo="0" data-linha="3" data-coluna="1"></div>
+				<div id="p18" class="pixel" data-ativo="0" data-linha="3" data-coluna="2"></div>
+				<div id="p19" class="pixel" data-ativo="0" data-linha="3" data-coluna="3"></div>
+				<div id="p20" class="pixel" data-ativo="0" data-linha="3" data-coluna="4"></div>
+
+				<div id="p21" class="pixel" data-ativo="0" data-linha="4" data-coluna="0"></div>
+				<div id="p22" class="pixel" data-ativo="0" data-linha="4" data-coluna="1"></div>
+				<div id="p23" class="pixel" data-ativo="0" data-linha="4" data-coluna="2"></div>
+				<div id="p24" class="pixel" data-ativo="0" data-linha="4" data-coluna="3"></div>
+				<div id="p25" class="pixel" data-ativo="0" data-linha="4" data-coluna="4"></div>
+
+				<div id="p26" class="pixel" data-ativo="0" data-linha="5" data-coluna="0"></div>
+				<div id="p27" class="pixel" data-ativo="0" data-linha="5" data-coluna="1"></div>
+				<div id="p28" class="pixel" data-ativo="0" data-linha="5" data-coluna="2"></div>
+				<div id="p29" class="pixel" data-ativo="0" data-linha="5" data-coluna="3"></div>
+				<div id="p30" class="pixel" data-ativo="0" data-linha="5" data-coluna="4"></div>
+
+				<div id="p31" class="pixel" data-ativo="0" data-linha="6" data-coluna="0"></div>
+				<div id="p32" class="pixel" data-ativo="0" data-linha="6" data-coluna="1"></div>
+				<div id="p33" class="pixel" data-ativo="0" data-linha="6" data-coluna="2"></div>
+				<div id="p34" class="pixel" data-ativo="0" data-linha="6" data-coluna="3"></div>
+				<div id="p35" class="pixel" data-ativo="0" data-linha="6" data-coluna="4"></div>
+
+				<div id="p36" class="pixel" data-ativo="0" data-linha="7" data-coluna="0"></div>
+				<div id="p37" class="pixel" data-ativo="0" data-linha="7" data-coluna="1"></div>
+				<div id="p38" class="pixel" data-ativo="0" data-linha="7" data-coluna="2"></div>
+				<div id="p39" class="pixel" data-ativo="0" data-linha="7" data-coluna="3"></div>
+				<div id="p40" class="pixel" data-ativo="0" data-linha="7" data-coluna="4"></div>
+			</div>
+			<div id="resultado"></div>
+			<div id="botoes">
+				<button id="btLimpar">Limpar</button>
+				<button id="btTodos">Todos</button>
+				<button id="btCopiar">Copiar</button>
+				<button id="btSobre">Sobre</button>
+			</div>
+		</div>
+		<br>
+		<img src="logo_cfb.png" width="370">
+		<h1>www.youtube.com/cfbcursos</h1>
+
+	</body>
+</html> 
