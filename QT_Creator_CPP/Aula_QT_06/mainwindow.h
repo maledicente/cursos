@@ -16,6 +16,7 @@ public:
     ~MainWindow();
 
 public slots:
+    void mudaTexto();
 
 
 private:
