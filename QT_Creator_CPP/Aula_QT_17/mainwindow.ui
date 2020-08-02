@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>306</width>
-    <height>344</height>
+    <width>432</width>
+    <height>295</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>306</width>
+     <width>432</width>
      <height>21</height>
     </rect>
    </property>
@@ -30,6 +30,8 @@
     <addaction name="actionNovo"/>
     <addaction name="actionSalvar"/>
     <addaction name="actionEditar"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
     <addaction name="actionSair"/>
    </widget>
    <widget class="QMenu" name="menuEditar">
@@ -43,31 +45,53 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNovo">
+   <property name="icon">
+    <iconset resource="ArquivoDeRecursos.qrc">
+     <normaloff>:/icones/icons/new.png</normaloff>:/icones/icons/new.png</iconset>
+   </property>
    <property name="text">
     <string>Novo</string>
    </property>
   </action>
   <action name="actionSalvar">
+   <property name="icon">
+    <iconset resource="ArquivoDeRecursos.qrc">
+     <normaloff>:/icones/icons/save.png</normaloff>:/icones/icons/save.png</iconset>
+   </property>
    <property name="text">
     <string>Salvar</string>
    </property>
   </action>
   <action name="actionEditar">
+   <property name="icon">
+    <iconset resource="ArquivoDeRecursos.qrc">
+     <normaloff>:/icones/icons/edit.png</normaloff>:/icones/icons/edit.png</iconset>
+   </property>
    <property name="text">
     <string>Editar</string>
    </property>
   </action>
-  <action name="actionSair">
-   <property name="text">
-    <string>Sair</string>
-   </property>
-  </action>
   <action name="actionPesquisar">
+   <property name="icon">
+    <iconset resource="ArquivoDeRecursos.qrc">
+     <normaloff>:/icones/icons/search.png</normaloff>:/icones/icons/search.png</iconset>
+   </property>
    <property name="text">
     <string>Pesquisar</string>
    </property>
   </action>
+  <action name="actionSair">
+   <property name="icon">
+    <iconset resource="ArquivoDeRecursos.qrc">
+     <normaloff>:/icones/icons/exit.png</normaloff>:/icones/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="ArquivoDeRecursos.qrc"/>
+ </resources>
  <connections/>
 </ui>
