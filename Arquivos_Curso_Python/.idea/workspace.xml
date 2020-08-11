@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add" />
+    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula30-Jogo da Velha.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula30-Jogo da Velha.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +39,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Aula30-Jogo da Velha.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1fvM1eIhMMbDKeIK6f61DvjAlxw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,9 +53,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.r.configuration.RSettingsProjectConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.aula29">
+  <component name="RunManager" selected="Python.Aula30-Jogo da Velha">
+    <configuration name="Aula30-Jogo da Velha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula30-Jogo da Velha.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="aula29" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aula30-Jogo da Velha" />
         <item itemvalue="Python.aula29" />
       </list>
     </recent_temporary>
@@ -124,40 +155,53 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add" />
     <option name="LAST_COMMIT_MESSAGE" value="Add" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="634" y="86" key="#Inspections" timestamp="1597156889340">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="634" y="86" key="#Inspections/0.36.1366.732@0.36.1366.732" timestamp="1597156889340" />
+    <state x="930" y="117" key="#Python" timestamp="1597165574970">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="930" y="117" key="#Python/0.36.1366.732@0.36.1366.732" timestamp="1597165574970" />
     <state x="282" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597094129438">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="282" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1366.732@0.36.1366.732" timestamp="1597094129438" />
-    <state width="943" height="175" key="GridCell.Tab.0.bottom" timestamp="1597095331818">
+    <state width="582" height="499" key="GridCell.Tab.0.bottom" timestamp="1597167997103">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="943" height="175" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1597095331818" />
-    <state width="943" height="175" key="GridCell.Tab.0.center" timestamp="1597095331817">
+    <state width="582" height="499" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1597167997103" />
+    <state width="582" height="499" key="GridCell.Tab.0.center" timestamp="1597167997098">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="943" height="175" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1597095331817" />
-    <state width="943" height="175" key="GridCell.Tab.0.left" timestamp="1597095331817">
+    <state width="582" height="499" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1597167997098" />
+    <state width="582" height="499" key="GridCell.Tab.0.left" timestamp="1597167997098">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="943" height="175" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1597095331817" />
-    <state width="943" height="175" key="GridCell.Tab.0.right" timestamp="1597095331818">
+    <state width="582" height="499" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1597167997098" />
+    <state width="582" height="499" key="GridCell.Tab.0.right" timestamp="1597167997099">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="943" height="175" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1597095331818" />
-    <state x="414" y="39" key="SettingsEditor" timestamp="1597094307205">
+    <state width="582" height="499" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1597167997099" />
+    <state x="466" y="39" width="900" height="725" key="SettingsEditor" timestamp="1597161315839">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="414" y="39" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1597094307205" />
+    <state x="466" y="39" width="900" height="725" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1597161315839" />
     <state x="471" y="140" key="Vcs.Push.Dialog.v2" timestamp="1597095237406">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="471" y="140" key="Vcs.Push.Dialog.v2/0.36.1366.732@0.36.1366.732" timestamp="1597095237406" />
+    <state x="630" y="107" width="536" height="692" key="dock-window-1" timestamp="1597170171676">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="630" y="107" width="536" height="692" key="dock-window-1/0.36.1366.732@0.36.1366.732" timestamp="1597170171676" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
