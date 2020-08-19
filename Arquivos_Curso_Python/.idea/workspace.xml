@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add">
-      <change afterPath="$PROJECT_DIR$/../Data_Science/imc_meses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_Science/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Science/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
