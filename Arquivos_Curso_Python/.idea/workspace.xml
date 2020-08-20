@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add" />
+    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,12 +38,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/aula37.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula36.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Aula30-Jogo da Velha.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula34.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula34mod.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula35.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aula36.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aula37.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1fvM1eIhMMbDKeIK6f61DvjAlxw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -59,70 +61,7 @@
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
-  <component name="RunManager" selected="Python.aula38">
-    <configuration name="aula35" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula35.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aula36" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula36.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aula37" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula37.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.aula45">
     <configuration name="aula38" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +75,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula38.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aula43" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula43.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aula44" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula44.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aula45" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula45.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula45" />
+        <item itemvalue="Python.aula44" />
+        <item itemvalue="Python.aula43" />
         <item itemvalue="Python.aula38" />
         <item itemvalue="Python.jogador" />
-        <item itemvalue="Python.aula37" />
-        <item itemvalue="Python.aula36" />
-        <item itemvalue="Python.aula35" />
       </list>
     </recent_temporary>
   </component>
@@ -263,22 +265,22 @@
     </state>
     <state x="577" y="260" width="424" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1597416822348" />
     <state x="710" y="349" key="FileChooserDialogImpl/0.40.1680.1010@0.40.1680.1010" timestamp="1597270737536" />
-    <state width="641" height="469" key="GridCell.Tab.0.bottom" timestamp="1597689425614">
+    <state width="622" height="479" key="GridCell.Tab.0.bottom" timestamp="1597958327780">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="641" height="469" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1597689425614" />
-    <state width="641" height="469" key="GridCell.Tab.0.center" timestamp="1597689425611">
+    <state width="622" height="479" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1597958327780" />
+    <state width="622" height="479" key="GridCell.Tab.0.center" timestamp="1597958327779">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="641" height="469" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1597689425611" />
-    <state width="641" height="469" key="GridCell.Tab.0.left" timestamp="1597689425610">
+    <state width="622" height="479" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1597958327779" />
+    <state width="622" height="479" key="GridCell.Tab.0.left" timestamp="1597958327779">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="641" height="469" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1597689425610" />
-    <state width="641" height="469" key="GridCell.Tab.0.right" timestamp="1597689425614">
+    <state width="622" height="479" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1597958327779" />
+    <state width="622" height="479" key="GridCell.Tab.0.right" timestamp="1597958327779">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="641" height="469" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1597689425614" />
+    <state width="622" height="479" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1597958327779" />
     <state x="466" y="39" width="900" height="725" key="SettingsEditor" timestamp="1597444544500">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
