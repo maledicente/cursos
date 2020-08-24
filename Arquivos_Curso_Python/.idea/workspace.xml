@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banco/agenda.db" beforeDir="false" afterPath="$PROJECT_DIR$/Banco/agenda.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,8 @@
     <setting file="file://$PROJECT_DIR$/aula35.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula51.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula36.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula37.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula52.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aula37.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aula49.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Aula30-Jogo da Velha.py" root0="SKIP_INSPECTION" />
   </component>
@@ -66,8 +65,8 @@
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
-  <component name="RunManager" selected="Python.aula52">
-    <configuration name="aula49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.grafico3d">
+    <configuration name="aula26-Try-Except" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula49.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula26-Try-Except.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +129,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="grafico3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_Science" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/grafico3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,34 +192,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yield" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../codes-python" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../codes-python/yield.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.grafico3d" />
+        <item itemvalue="Python.aula26-Try-Except" />
         <item itemvalue="Python.aula52" />
         <item itemvalue="Python.matplot" />
         <item itemvalue="Python.aula50" />
-        <item itemvalue="Python.aula49" />
-        <item itemvalue="Python.yield" />
       </list>
     </recent_temporary>
   </component>
@@ -270,22 +269,22 @@
     </state>
     <state x="577" y="260" width="424" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1597416822348" />
     <state x="710" y="349" key="FileChooserDialogImpl/0.40.1680.1010@0.40.1680.1010" timestamp="1597270737536" />
-    <state width="662" height="499" key="GridCell.Tab.0.bottom" timestamp="1598128023173">
+    <state width="692" height="514" key="GridCell.Tab.0.bottom" timestamp="1598292235739">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="662" height="499" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598128023173" />
-    <state width="662" height="499" key="GridCell.Tab.0.center" timestamp="1598128023172">
+    <state width="692" height="514" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598292235739" />
+    <state width="692" height="514" key="GridCell.Tab.0.center" timestamp="1598292235738">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="662" height="499" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598128023172" />
-    <state width="662" height="499" key="GridCell.Tab.0.left" timestamp="1598128023171">
+    <state width="692" height="514" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598292235738" />
+    <state width="692" height="514" key="GridCell.Tab.0.left" timestamp="1598292235737">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="662" height="499" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598128023171" />
-    <state width="662" height="499" key="GridCell.Tab.0.right" timestamp="1598128023172">
+    <state width="692" height="514" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598292235737" />
+    <state width="692" height="514" key="GridCell.Tab.0.right" timestamp="1598292235739">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="662" height="499" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598128023172" />
+    <state width="692" height="514" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598292235739" />
     <state x="80" y="43" width="900" height="725" key="SettingsEditor" timestamp="1598054255418">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
