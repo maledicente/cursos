@@ -65,7 +65,7 @@
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
-  <component name="RunManager" selected="Python.grafico3d">
+  <component name="RunManager" selected="Python.aula38">
     <configuration name="aula26-Try-Except" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aula50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aula38" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,28 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula50.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aula52" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula52.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula38.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,6 +129,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="integral" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_Science" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/integral.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_Science/Scraping/Dolar" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/Scraping/Dolar/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,34 +192,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="matplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula38" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.integral" />
         <item itemvalue="Python.grafico3d" />
         <item itemvalue="Python.aula26-Try-Except" />
-        <item itemvalue="Python.aula52" />
-        <item itemvalue="Python.matplot" />
-        <item itemvalue="Python.aula50" />
       </list>
     </recent_temporary>
   </component>
@@ -269,22 +269,22 @@
     </state>
     <state x="577" y="260" width="424" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1597416822348" />
     <state x="710" y="349" key="FileChooserDialogImpl/0.40.1680.1010@0.40.1680.1010" timestamp="1597270737536" />
-    <state width="692" height="514" key="GridCell.Tab.0.bottom" timestamp="1598292235739">
+    <state width="469" height="175" key="GridCell.Tab.0.bottom" timestamp="1598410366263">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="692" height="514" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598292235739" />
-    <state width="692" height="514" key="GridCell.Tab.0.center" timestamp="1598292235738">
+    <state width="469" height="175" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598410366263" />
+    <state width="469" height="175" key="GridCell.Tab.0.center" timestamp="1598410366261">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="692" height="514" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598292235738" />
-    <state width="692" height="514" key="GridCell.Tab.0.left" timestamp="1598292235737">
+    <state width="469" height="175" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598410366261" />
+    <state width="469" height="175" key="GridCell.Tab.0.left" timestamp="1598410366254">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="692" height="514" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598292235737" />
-    <state width="692" height="514" key="GridCell.Tab.0.right" timestamp="1598292235739">
+    <state width="469" height="175" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598410366254" />
+    <state width="469" height="175" key="GridCell.Tab.0.right" timestamp="1598410366262">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state width="692" height="514" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598292235739" />
+    <state width="469" height="175" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598410366262" />
     <state x="80" y="43" width="900" height="725" key="SettingsEditor" timestamp="1598054255418">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
