@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,55 +22,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="Add">
+    <list default="true" id="cfe37ec1-b688-4433-8c40-e8e0f5ca92a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Arquivos_Curso_Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rAvailablePackageCache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rpackages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Science/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Science/.idea/Data_Science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Science/.idea/Data_Science.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data_Science/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Science/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/aula34.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula50.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula34mod.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula35.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula51.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula36.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula52.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula37.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aula49.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Aula30-Jogo da Velha.py" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="ProjectId" id="1fvM1eIhMMbDKeIK6f61DvjAlxw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1geUQZZ1YC1vOLueRgpXZ4MNEe9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dados_medidas_perfeitas_homem" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="ReadonlyStatusHandler">
-    <option name="SHOW_DIALOG" value="false" />
-  </component>
-  <component name="RunManager" selected="Python.aula38">
-    <configuration name="aula26-Try-Except" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
+  <component name="RunManager" selected="Python.main">
+    <configuration name="aula22-lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Arquivos_Curso_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -78,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula26-Try-Except.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula22-lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,29 +81,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aula38" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula38.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="grafico3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
+    <configuration name="grafico-bar-evitar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Arquivos_Curso_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -120,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/grafico3d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/grafico-bar-evitar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,50 +102,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="integral" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_Science" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/integral.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_Science/Scraping/Dolar" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_Science/Scraping/Dolar/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="pythonProject" />
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Arquivos_Curso_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -192,43 +123,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Arquivos_Curso_Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aula38" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.integral" />
-        <item itemvalue="Python.grafico3d" />
-        <item itemvalue="Python.aula26-Try-Except" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.grafico-bar-evitar" />
+        <item itemvalue="Python.aula22-lambda" />
+        <item itemvalue="Python.matplot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41d09d24-109a-4cfd-8547-9a41c53f223a" name="Default Changelist" comment="" />
-      <created>1597093898564</created>
+      <changelist id="cfe37ec1-b688-4433-8c40-e8e0f5ca92a5" name="Default Changelist" comment="" />
+      <created>1598474537398</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597093898564</updated>
+      <updated>1598474537398</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add">
-      <created>1597095230351</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1597095230351</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add">
-      <created>1597446183817</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1597446183817</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,84 +176,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="76" width="732" height="632" key="#Inspections" timestamp="1597666550001">
+    <state width="459" height="175" key="GridCell.Tab.0.bottom" timestamp="1598476051894">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="297" y="76" width="732" height="632" key="#Inspections/0.36.1366.732@0.36.1366.732" timestamp="1597666550001" />
-    <state x="930" y="117" key="#Python" timestamp="1597165574970">
+    <state width="459" height="175" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598476051894" />
+    <state width="459" height="175" key="GridCell.Tab.0.center" timestamp="1598476051892">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="930" y="117" key="#Python/0.36.1366.732@0.36.1366.732" timestamp="1597165574970" />
-    <state x="282" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597094129438">
+    <state width="459" height="175" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598476051892" />
+    <state width="459" height="175" key="GridCell.Tab.0.left" timestamp="1598476051891">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="282" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1366.732@0.36.1366.732" timestamp="1597094129438" />
-    <state x="811" y="116" key="#xdebugger.evaluate" timestamp="1597464930437">
+    <state width="459" height="175" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598476051891" />
+    <state width="459" height="175" key="GridCell.Tab.0.right" timestamp="1598476051893">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="811" y="116" key="#xdebugger.evaluate/0.36.1366.732@0.36.1366.732" timestamp="1597464930437" />
-    <state x="577" y="260" width="424" height="479" key="FileChooserDialogImpl" timestamp="1597416822348">
+    <state width="459" height="175" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598476051893" />
+    <state x="414" y="39" key="SettingsEditor" timestamp="1598474896747">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="577" y="260" width="424" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1597416822348" />
-    <state x="710" y="349" key="FileChooserDialogImpl/0.40.1680.1010@0.40.1680.1010" timestamp="1597270737536" />
-    <state width="469" height="175" key="GridCell.Tab.0.bottom" timestamp="1598410366263">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state width="469" height="175" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1598410366263" />
-    <state width="469" height="175" key="GridCell.Tab.0.center" timestamp="1598410366261">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state width="469" height="175" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1598410366261" />
-    <state width="469" height="175" key="GridCell.Tab.0.left" timestamp="1598410366254">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state width="469" height="175" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1598410366254" />
-    <state width="469" height="175" key="GridCell.Tab.0.right" timestamp="1598410366262">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state width="469" height="175" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1598410366262" />
-    <state x="80" y="43" width="900" height="725" key="SettingsEditor" timestamp="1598054255418">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state x="80" y="43" width="900" height="725" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1598054255418" />
-    <state x="377" y="41" key="SettingsEditor/0.40.1680.1010@0.40.1680.1010" timestamp="1597270745648" />
-    <state x="471" y="140" key="Vcs.Push.Dialog.v2" timestamp="1597446230286">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state x="471" y="140" key="Vcs.Push.Dialog.v2/0.36.1366.732@0.36.1366.732" timestamp="1597446230286" />
-    <state x="630" y="107" width="536" height="692" key="dock-window-1" timestamp="1597170171676">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state x="630" y="107" width="536" height="692" key="dock-window-1/0.36.1366.732@0.36.1366.732" timestamp="1597170171676" />
-    <state x="319" y="298" width="592" height="272" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1598054196038">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state x="319" y="298" width="592" height="272" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.36.1366.732@0.36.1366.732" timestamp="1598054196038" />
-    <state x="826" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597437087205">
-      <screen x="0" y="36" width="1366" height="732" />
-    </state>
-    <state x="826" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.36.1366.732@0.36.1366.732" timestamp="1597437087205" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aula51.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="414" y="39" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1598474896747" />
   </component>
 </project>
