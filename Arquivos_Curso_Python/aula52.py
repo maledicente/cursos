@@ -14,7 +14,7 @@ def ConexaoBanco():
 
 
 vcon = ConexaoBanco()
-
+"""
 nome = input("Digite o nome: ")
 tel = input("Digite o telefone: ")
 email = input("Digite o E-mail: ")
@@ -33,7 +33,7 @@ def inserir(conexao, sql):
 
 
 inserir(vcon, vsql)
-
+"""
 
 def deletar(conexao, sql):
    try:
@@ -64,7 +64,7 @@ def atualizar(conexao, sql):
 
 vsql = "UPDATE tb_contatos SET T_NOMECONTATO='Luiz Paulo' WHERE N_IDCONTATO=2"
 
-atualizar(vcon, vsql)
+#atualizar(vcon, vsql)
 
 def consulta(conexao, sql):
       c = conexao.cursor()
@@ -72,8 +72,9 @@ def consulta(conexao, sql):
       resultado=c.fetchall()
       return  resultado
 
-vsql="SELECT * FROM tb_contatos WHERE N_IDCONTATO=5"
+vsql="SELECT * FROM tb_contatos WHERE T_NOMECONTATO LIKE '%a%'"
 res = consulta(vcon,vsql)
 
 for i in res:
    print(i)
+
