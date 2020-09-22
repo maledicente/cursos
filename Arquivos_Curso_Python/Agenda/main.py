@@ -14,6 +14,24 @@ def ConexaoBanco():
 
 vcon = ConexaoBanco()
 
+def query(conexao,sql):
+	try:
+		c=conexao.cursor()
+		c.execute(sql)
+		conexao.commit()
+	except Error as ex:
+		print(ex)
+	finally:
+		print("Operação Realizada com sucesso.")
+		c.close()
+
+def consultar(conexao,sql):
+	c=conexao.cursor()
+	c.execute(sql)
+	res=c.fetchall()
+	#conexao.close()
+	return res
+
 def menuPrincipal():
 	os.system("clear")
 	print("1 - Inserir Novo Registro")
@@ -24,7 +42,13 @@ def menuPrincipal():
 	print("6 - Sair")
 
 def menuInserir():
-	print()
+	os.system("clear")
+	vnome=input("Digite o nome: ")
+	vtelefone=input("Digite o telefone: ")
+	vemail=input("Digite o email: ")
+	vsql="INSERT INTO tb_contatos (T_NOMECONTATO, T_telefonecontato, t_emailcontato) VALUES ('"+vnome+"','"+vtelefone+"','"+vemail+"')"
+	query(vcon,vsql)
+
 
 def menuDeletar():
 	print()
@@ -59,4 +83,7 @@ while opc !=6:
 		os.system("clear")
 		print("Opção invalida")
 		os.system("pause")
+
+vcon.close()
+
 os.system("clear")
