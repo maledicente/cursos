@@ -4,7 +4,7 @@ Nivel: 01
 Ataque: 1
 Defesa:
 Agilidade:
-Magia
+Magia 
 
 Resistencia:
 Habilidade especial:
