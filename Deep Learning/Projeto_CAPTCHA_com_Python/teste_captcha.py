@@ -58,7 +58,7 @@ def quebrar_captcha():
 			# Desenhar letras prevista
 		texto_previsao = "".join(previsao)
 		print(texto_previsao)
-		return texto_previsao
+		#return texto_previsao
 
 if __name__ == "__main__":
 	quebrar_captcha()
